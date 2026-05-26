@@ -39,3 +39,13 @@ average success
 highest success
 lowest success"""
 
+def Ai_generated_prediction():
+    matrix=np.random.binomial(
+        n=15,
+        p=0.8,
+        size=50
+    )
+    print(f"The Prediction Avg-Values Are:{matrix.mean()}")
+    print(f"The Prediction Max-Values Are:{matrix.max()}")
+    print(f"The Prediction Min-Values Are:{matrix.min()}")
+Ai_generated_prediction()
