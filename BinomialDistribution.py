@@ -24,7 +24,7 @@ def exam_simulator():
     results=np.random.binomial(
         n=20,
         p=0.7,
-        size=20
+        size=10
     )
     print(f"simulate exam pass results 20 trials are :\n{results} ")
     print(f"simulate exam max-pass results 20 trials are :\n{results.max()} ")
