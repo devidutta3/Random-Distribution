@@ -7,3 +7,5 @@
         size= no of outtputs <br>
                             </p>
 
+<h3> Here Is The Graph:<br>
+<img src="https://www.medcalc.org/en/manual/functions/pdfbinomial.png" alt="Binomial Graph">
