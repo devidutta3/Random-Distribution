@@ -49,3 +49,25 @@ def Ai_generated_prediction():
     print(f"The Prediction Max-Values Are:{matrix.max()}")
     print(f"The Prediction Min-Values Are:{matrix.min()}")
 Ai_generated_prediction()
+
+"""Mini Challenge:
+Website Login Success Simulator”
+Requirements:
+generate 100 login attempts
+5 trials
+success probability = 0.6
+Then print:
+average successful logins
+highest successful logins
+lowest successful logins """
+
+def website_login_simulator():
+    login_attempts=np.random.binomial(
+        n=5,
+        p=0.6,
+        size=100
+    )
+    print(f"The Avg Attempts:{login_attempts.mean()}")
+    print(f"The Max Attempts:{login_attempts.max()}")
+    print(f"The Min Attempts:{login_attempts.min()}")
+website_login_simulator()

@@ -9,3 +9,7 @@
 
 <h3> Here Is The Graph:<br>
 <img src="https://www.medcalc.org/en/manual/functions/pdfbinomial.png" alt="Binomial Graph">
+<h1>REFER THE BINOMIALDISTRIBUTION.py For Questions If you Stuck  anywhere  then You Can Contact Me 👇👇 
+ </h1> <br>
+ <a href="mailto:dasdevidutta3@://gmail.com">Click Here To Contact Me </a>
+
